@@ -1,51 +1,84 @@
-# Welcome to your Expo app 👋
+# 🌾 Crop_AI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Crop_AI is a powerful React Native + Expo-based mobile app that helps farmers and agricultural experts **identify crop diseases**, receive **AI-driven analysis**, chat with an intelligent assistant, and get a **day-wise treatment plan** for their crops.
 
-## Get started
+This app leverages **image analysis**, **Firebase Firestore/Storage**, and **Gemini AI** to deliver real-time, practical insights for healthier crops and improved yield.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Getting Started
 
-2. Start the app
+### 1. Install dependencies
 
-   ```bash
-    npx expo start
-   ```
+```bash
+npm install
+```
 
-In the output, you'll find options to open the app in a
+### 2. Start the app
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+```bash
+npx expo start
+```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Then choose to open in:
 
-## Get a fresh project
+- 📱 **Expo Go** (Recommended for real device testing)
+- 🧪 **Android Emulator**
+- 🍏 **iOS Simulator**
+- 🔧 **Development build** (For advanced debugging)
 
-When you're ready, run:
+---
+
+## 🧩 Key Features
+
+- 📸 **Scan Crop Image** – Upload an image to detect disease.
+- 🧠 **AI Diagnosis** – Uses Gemini AI for detailed crop analysis.
+- 📋 **Day-by-Day To-Do Plan** – Personalized daily care schedule.
+- 💬 **Chatbot Support** – Talk to an AI assistant for ongoing help.
+- 🔔 **Latest Agri News** – Stay updated with current agri trends.
+- 📂 **Saved History** – Revisit previous crop scans and reports.
+
+---
+
+## 🧱 Tech Stack
+
+- **React Native** + **Expo**
+- **Firebase Firestore** & **Storage**
+- **Google Gemini API**
+- **TypeScript** / JavaScript
+- **Tailored UX for Farmers**
+
+---
+
+## 🧼 Reset to a Fresh Project
+
+To reset the current setup and start clean:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This will move current code to `app-example/` and give you a fresh `app/` directory.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📚 Learn More
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [React Native Docs](https://reactnative.dev/docs/getting-started)
+- [Expo Documentation](https://docs.expo.dev/)
+- [Firebase Docs](https://firebase.google.com/docs)
+- [Gemini AI Overview](https://deepmind.google/technologies/gemini/)
+- [Expo Router](https://expo.github.io/router/docs)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 🌐 Join the Community
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Crop_AI
+- 💬 [Expo Discord](https://chat.expo.dev)
+- 🔗 [Expo GitHub](https://github.com/expo/expo)
+- 🧠 [OpenAI Dev Forum](https://community.openai.com/)
+
+---
+
+Let’s revolutionize agriculture with AI 🌱  
+**– Team Crop_AI**
